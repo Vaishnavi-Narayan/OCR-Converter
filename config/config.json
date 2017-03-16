@@ -1,0 +1,34 @@
+{
+    "defaults": {
+        "visualCopyOCRLang": "eng",
+        "visualCopyTranslateLang": "en",
+        "visualCopyAutoTranslate": true,
+        "visualCopyOCRFontSize": "16px",
+        "visualCopySupportDicts": false,
+        "visualCopyQuickSelectLangs": [],
+        "visualCopyTextOverlay": true
+    },
+    "yandex_api_key": "trnsl.1.1.20170126T202139Z.06e6cc2b5d9dcaba.6755c09f69f20f4e75f5742b9f10f3f5b760e02b",
+    "yandex_api_url": "https://translate.yandex.net/api/v1.5/tr.json/translate",
+    "ocr_api_list": [{
+        "id": "1",
+        "ocr_api_key": "81a8f79a9988957",
+        "ocr_api_url": "https://ocrapi.a9t9.com/api/Parse/Image"
+    },{
+        "id": "2",
+        "ocr_api_key": "copyfishonly",
+        "ocr_api_url": "https://apipro2.ocr.space/parse/image"
+    }],
+    "ocr_server_reset_time": 86400,
+    "ocr_timeout": 60000,
+    
+    "ocr_languages": [{
+        "lang": "eng",
+        "name": "English",
+        "short": "EN"
+    }],
+    "yandex_languages": [
+    {
+        "en": "English"
+    }]
+}
